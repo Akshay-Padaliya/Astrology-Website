@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya';
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #ffff;
+    --secondry-color: #C8191C;
+}
+
+.discription {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.main-title {
+    color: var(--secondry-color);
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sub-title {
+    color: var(--primary-color);
+    font-size: 7.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cm-btn {
+    display: flex;
+    width: 300px;
+    height: 63px;
+    padding: 15px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--secondry-color);
+    color: var(--primary-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* ==============header=========== */
+header {
+    /* background-color: rgb(0, 0, 0); */
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    left: 0;
+    z-index: 1;
+    backdrop-filter: blur(5px);
+    padding-top: 3rem;
+
+}
+
+header .container nav ul {
+    display: flex;
+    padding-left: 5rem;
+}
+
+
+header .container nav ul li {
+    display: inline-block;
+}
+
+header .container nav ul li a,
+header .fa-bars {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+header .fa-bars {
+    font-size: 1.8rem;
+    width: 4rem;
+}
+
+header .container nav ul li a:hover,
+header .fa-bars:hover {
+    color: var(--secondry-color);
+}
+
+
+
+/* ================================= */
+/* ===========hero============ */
+#hero {
+    background: linear-gradient(180deg, #000 16.49%, #ce1619 274.79%);
+    position: relative;
+    padding: 37.7rem 0 31.7rem 0;
+}
+
+#hero::after {
+    content: '';
+    position: absolute;
+    background-image: url(/assets/image/Vector.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#hero h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 16rem;
+    /* max-width: 1567px; */
+    margin: 0 auto;
+}
+
+#hero h1 span {
+    color: var(--secondry-color);
+}
+
+#hero p {
+    text-align: center;
+    max-width: 90rem;
+    margin: 5.5rem auto;
+}
+
+#hero a {
+    margin: 0 auto;
+}
+
+/* ================================= */
+
+
+/* ===========About us============ */
+#about {
+    background: linear-gradient(0deg, #000 16.49%, #ce1619 274.79%);
+}
+
+.about-data {
+    padding: 4.1rem 0 20rem 0;
+    justify-content: space-between;
+    justify-content: center;
+    row-gap: 3rem;
+}
+
+.about-data img {
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.about-data h3 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 5.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-detail .about-right {
+    padding-left: 11.5rem;
+}
+
+.about-detail .image {
+    padding-right: 11.5rem;
+    border-right: 2px solid white;
+    margin-bottom: 10.5rem;
+}
+
+.about-detail {
+    row-gap: 3rem;
+}
+
+.about-detail h5 {
+    font-size: 2.4rem;
+}
+
+.about-detail h2 {
+    margin: 1.8rem 0 10.5rem 0;
+}
+
+
+
+/* ================================= */
+
+/* ==========super setion=============== */
+#super {
+    padding: 21.4rem 0;
+    background: linear-gradient(180deg, #000 37.37%, #c8191c 231.27%);
+}
+
+.super-data {
+    padding: 0rem 0 5.9rem 0;
+}
+
+.super-data h3,
+.team h3 {
+    color: var(--primary-color);
+    font-size: 10.5rem;
+    font-weight: 700;
+    line-height: 15rem;
+}
+
+.team h3 {
+    padding-left: 5rem;
+    margin-bottom: 0rem;
+}
+
+.team-image img:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+/* ================================= */
+
+/* ==========service setion=============== */
+#service {
+    background: linear-gradient(0deg, #000 16.49%, rgb(200, 25, 28) 274.79%);
+}
+
+#service .container>h5,
+#service .container>h2 {
+    text-align: center;
+    margin-bottom: 2.5rem
+}
+
+
+
+.forecast h4 {
+    color: var(--primary-color);
+    font-size: 4.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 5rem 0 2rem 0;
+}
+
+.forecast p {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.forecast img:hover {
+    transform: scale(1.1);
+    transition: all 0.7s;
+}
+
+
+
+
+/* ================================= */
+/* ===========Why-us============= */
+#why-us {
+    padding-top: 20rem;
+    background: linear-gradient(180deg, #000 36.84%, rgb(200, 25, 28) 223.16%);
+}
+
+#why-us .container h5,
+#why-us .container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.why-boodoo {
+    margin-top: 17rem;
+    row-gap: 4rem;
+}
+
+.why-boodoo .why h4 {
+    color: var(--primary-color);
+    font-size: 2.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 3rem 0;
+}
+
+.why-boodoo .why {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ================================= */
+/* ===========Horoscope============== */
+#horoscope {
+    background: linear-gradient(0deg, #000 16.49%, rgb(200, 25, 28) 274.79%);
+    padding: 20rem 0;
+}
+
+#horoscope .container>h5 {
+    margin-bottom: 3rem;
+}
+
+.horoscope {
+    margin: 10rem 0;
+    row-gap: 10rem;
+}
+
+.horoscope .zodiac .zodiac-image {
+    width: 18rem;
+    flex-shrink: 0;
+
+}
+
+.horoscope .zodiac .zodiac-data {
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.horoscope .zodiac .zodiac-data h4 {
+    color: var(--primary-color);
+    font-size: 5.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#horoscope .container .cm-btn {
+    margin: 0 auto;
+}
+
+#horoscope .partner {
+    padding-top: 20rem;
+    row-gap: 3rem;
+}
+
+/* ================================= */
+/* =============appointment============ */
+#appointment {
+    background: linear-gradient(180deg, #000 36.84%, rgb(200, 25, 28) 223.16%);
+    padding-bottom: 20rem;
+}
+
+.appointment {
+    row-gap: 5 rem;
+}
+
+.appointment .meet {
+    display: inline-flex;
+    flex-direction: column;
+    padding-right: 15rem;
+    justify-content: center;
+}
+
+.appointment .meet h5,
+.appointment .meet>h2 {
+    text-align: start;
+}
+
+.appointment .app-form h6 {
+    color: var(--primary-color);
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.appointment .app-form input,
+.appointment .app-form select {
+    display: flex;
+
+    padding: 2rem 3rem;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-style: none;
+    border: 2px solid #FFF;
+    width: 100%;
+    margin: 3rem 0 8rem 0;
+    background: none;
+
+    color: var(--primary-color);
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+/* ================================= */
+/* =============membership============= */
+#membership {
+    padding: 10.5rem 0;
+    position: relative;
+    background: linear-gradient(180deg, #514242 -74.63%, #2E0A0A 38.7%, #000 151.34%);
+}
+
+#membership::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    background-image: url(../image/membership.png);
+    width: 90%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: 5;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#membership h2 {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 84px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#membership p {
+    text-align: center;
+    max-width: 80rem;
+    margin: 2rem auto 5rem auto;
+}
+
+#membership .cm-btn {
+    margin: 0 auto;
+}
+
+
+/* ================================= */
+/* =============membership-price============= */
+#membership-price {
+    padding: 20rem 0;
+    background: linear-gradient(0deg, #000 16.49%, rgb(200, 25, 28) 274.79%);
+}
+.price-card{
+    margin-top: 8rem;
+    row-gap: 5rem;
+}
+
+.price-card .price {
+    padding: 6rem 7rem;
+}
+.price-card .price:hover{
+    background-color: var(--secondry-color);
+}
+.price-card .price:hover .cm-btn{
+    background-color: var(--primary-color);
+    color: var(--secondry-color);
+
+}
+
+.price-card .price h3,.price-card .price span{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.price-card .price h2{
+color: var(--primary-color);
+font-size: 7.2rem;
+font-weight: 700;
+text-transform: uppercase;
+margin: 3rem 0;
+}
+.price-card .price .check{
+    margin-bottom: 3rem;
+}
+.price-card .price .check p{
+    margin-left: 2rem;
+}
+
+.price-card .price a{
+    margin: 8rem  auto 0 auto;
+    max-width: 100%;
+}
+
+/* ================================= */
+/* ============client============ */
+#client{
+    background: linear-gradient(180deg, #000 36.84%, rgb(200, 25, 28) 223.16%);
+}
+#client .title h3{
+    color: var(--4, #FFF);
+text-align: center;
+font-size: 10.5rem;
+font-weight: 700;
+line-height: normal;
+}
+#client .arrow img{
+    margin: 0 auto;
+}
+
+
+
+/* ****** */
+.swiper {
+    width: 100%;
+}
+/* .swiper-wrapper{
+    max-width: 50rem;
+} */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.client-swiper .swiper-slide {
+    background: none;
+    padding: 0 18rem;
+}
+
+.client {
+    flex-direction: column;
+}
+
+.client p {
+    text-align: left;
+}
+
+.client h2 {
+    margin-top: 2rem;
+    color: var(--primary-color);
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.client-text {
+    padding: 1rem 3rem;
+    margin-top: 6rem;
+    position: relative;
+}
+
+.client-text p::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/“.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+    opacity: .35;
+    cursor: auto;
+    pointer-events: none;
+    top: 25%;
+    color: #FFF;
+}
+
+/* ================================= */
+
+
+/*============= blog ============*/
+
+#blog {
+    background: linear-gradient(0deg, #000000 36.84%, rgb(200, 25, 28) 223.16%);
+    padding-top: 20rem;
+}
+
+.blog {
+    margin-top: 8rem;
+    row-gap: 4rem;
+}
+
+#blog .blog-card {
+    padding: 0 1rem;
+}
+
+.blog-card img {
+    width: 100%;
+    transition: all 0.8s;
+}
+
+.blog-card img:hover {
+    transform: scale(1.1);
+}
+.blog-card {
+    overflow: hidden;
+}
+
+.blog-data h4 {
+    margin-top: 6rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.blog-data p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    max-width: 35rem;
+}
+
+.blog-data p a {
+    color: blue;
+}
+
+
+/*================================*/
+
+
+/*============= footer ============*/
+
+
+footer {
+    background: linear-gradient(180deg, #000000 36.84%, rgb(200, 25, 28) 223.16%);
+    padding:20rem 0 4.7rem 0;
+}
+img {
+    cursor: pointer;
+}
+
+.footer-data {
+    border-top: 2px solid #ffffff;
+    padding-top: 8rem;
+    row-gap: 3rem;
+    padding-bottom: 8rem;
+}
+
+.footer-data  p {
+    margin-top: 2rem;
+    color: #FFF;
+    font-size: 1.4rem;
+}
+
+.footer-data h4 {
+    color: #FFF;
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 4rem;
+}
+
+.footer-data ul li a {
+    margin-top: 1rem;
+    color: #FFF;
+    font-size: 1.8rem;
+}
+
+
+.foot-box ul div {
+    display: flex;
+    align-items: center;
+}
+
+.foot-box ul img {
+    display: inline;
+    /* width: 2.4rem;
+    height: 2.4rem; */
+    margin-right: 2rem;
+}
+
+
+footer .container .copyright {
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #ffffff;
+}
+
+/*==============================*/

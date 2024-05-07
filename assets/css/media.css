@@ -1,0 +1,408 @@
+/* 0-575 */
+@media screen and (max-width:575px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-data h3 {
+        font-size: 3.4rem;
+    }
+
+    .about-data img {
+        max-width: 50%;
+    }
+
+    .about-detail .about-right {
+        padding-left: 0rem;
+    }
+
+    .about-detail .image {
+        padding-right: 0rem;
+        border-right: none;
+    }
+
+    .about-right h5,
+    .about-right h2,
+    .about-left p {
+        text-align: center;
+    }
+
+    .about-right a {
+        margin: 0 auto;
+    }
+
+    .team .team-image {
+        padding: 0 0 0rem 0rem;
+    }
+
+    .team h3 {
+        padding-left: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+    }
+
+    .super-data p,
+    .super-data h3 {
+        text-align: center;
+    }
+
+    .astrological .forecast {
+        margin: 2.5rem 2.5rem;
+        padding: 3rem 3rem;
+    }
+    .horoscope .zodiac{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+    }
+    .appointment .app-form .form-left {
+        padding-right: 0;
+    }
+    
+    .appointment .app-form .form-right {
+        padding-left: 0;
+    }
+    .appointment .meet{
+        padding: 0;
+    }
+    .price-card .price{
+        margin: 0 5rem;
+        padding: 3rem 5rem;
+
+    }
+    #blog .blog-card {
+        padding: 0 4rem;
+    }
+    #client .arrow{
+        height: 50%;
+    }
+
+}
+
+/* 576-767 sm */
+
+@media screen and (min-width:576px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-data h3 {
+        font-size: 4.4rem;
+    }
+
+    .about-data img {
+        max-width: 60%;
+    }
+
+    .about-detail .about-right {
+        padding-left: 0rem;
+    }
+
+    .about-detail .image {
+        padding-right: 0rem;
+        border-right: none;
+    }
+
+    .about-right h5,
+    .about-right h2,
+    .about-left p {
+        text-align: center;
+    }
+
+    .about-left p {
+        padding-right: 0rem;
+    }
+
+    .about-right a {
+        margin: 0 auto;
+    }
+
+    .team .team-image {
+        padding: 0 0 0rem 0rem;
+    }
+
+    .team h3,
+    .super-data h3 {
+        padding-left: 0rem;
+        margin-bottom: 0rem;
+        text-align: center;
+    }
+
+    .super-data p,
+    .super-data h3 {
+        text-align: center;
+    }
+
+    .astrological .forecast {
+        margin: 2.5rem 2.5rem;
+        padding: 4rem 4rem;
+    }
+    .horoscope .zodiac{
+        justify-content: center;
+    }.appointment .app-form .form-left {
+        padding-right: 0rem;
+    }
+    
+    .appointment .app-form .form-right {
+        padding-left: 0rem;
+    }
+    .appointment .meet{
+        padding: 0;
+    }
+    .price-card .price {
+        margin: 0 5rem;
+        padding: 6rem 7rem;
+    }
+    #client .arrow {
+        height: 60%;
+    }
+
+}
+
+/* 768-991 md */
+@media screen and (min-width:768px) {
+    html {
+        font-size: 43.75%;
+    }
+
+    .about-data h3 {
+        font-size: 5.4rem;
+    }
+
+    .about-data img {
+        max-width: 100%;
+    }
+
+    .astrological .forecast {
+        margin: 2rem 1rem;
+        padding: 3rem 3rem;
+    }
+    .app-form .cm-btn{
+        margin: 0 auto;
+    }
+    .appointment .app-form .form-left {
+        padding-right: 4rem;
+    }
+    
+    .appointment .app-form .form-right {
+        padding-left: 4rem;
+    }.price-card .price {
+        margin: 0 0;
+        padding: 6rem 7rem;
+    }
+    #client .arrow {
+        height: 80%;
+    }
+}
+
+/* 992-1199  lg */
+@media screen and (min-width:992px) {
+    html {
+        font-size: 50%;
+    }
+
+    .about-detail .about-right {
+        padding-left: 8rem;
+    }
+
+    .about-detail .image {
+        padding-right: 8rem;
+        border-right: 2px solid white;
+    }
+
+    .about-right h5,
+    .about-right h2,
+    .about-left p {
+        text-align: start;
+    }
+
+    .about-right a {
+        margin: 0;
+    }
+
+    .about-left {
+        border: none;
+        padding: 0;
+    }
+
+    .about-detail .about-left p {
+        padding-right: 11.5rem;
+    }
+
+    .team .team-image {
+        padding: 0 0 8rem 8rem;
+    }
+
+    .team h3 {
+        padding-left: 5rem;
+        margin-bottom: 0rem;
+        text-align: start;
+    }
+
+    .super-data h3,
+    .team h3 {
+        font-size: 8.5rem;
+        line-height: 10rem;
+    }
+
+    .super-data h3 {
+        margin-bottom: 10.5rem;
+    }
+
+    .super-data p,
+    .super-data h3 {
+        text-align: start;
+    }
+
+    .astrological .forecast {
+        margin: 4rem 3rem;
+        padding: 3.5rem 4.5rem;
+    }
+    .app-form .cm-btn{
+        margin: 0 auto;
+    }
+    header .container nav ul li{
+        margin-left: 2rem;
+    }
+    #client .arrow {
+        height: 100%;
+    }
+}
+
+/* 1200-1399 xl */
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 50%;
+    }
+
+    .about-data h3 {
+        font-size: 5.4rem;
+    }
+
+    .about-detail .about-right {
+        padding-left: 11.5rem;
+    }
+
+    .about-detail .image {
+        padding-right: 11.5rem;
+        border-right: 2px solid white;
+    }
+
+    .super-data h3,
+    .team h3 {
+        font-size: 9.5rem;
+        line-height: 12rem;
+    }
+
+    .super-data h3 {
+        margin-bottom: 10.5rem;
+    }
+
+    .astrological .forecast {
+        margin: 5.5rem 5rem;
+        padding: 4rem 5rem;
+    }
+    .horoscope{
+        justify-content: space-around;
+    }
+    .app-form .cm-btn{
+        margin: 0;
+    }
+    .appointment .meet{
+        padding-right: 15rem;
+    }
+    header .container nav ul li{
+        margin-left: 3rem;
+    }
+
+}
+
+/* 1400-any xxl */
+@media screen and (min-width:1400px) {
+
+    .about-data h3 {
+        font-size: 5.4rem;
+    }
+
+    .super-data h3,
+    .team h3 {
+        font-size: 10.5rem;
+        line-height: 15rem;
+    }
+
+    .super-data h3 {
+        margin-bottom: 11.5rem;
+    }
+
+    .astrological .forecast {
+        margin: 6.5rem 6.5rem;
+        padding: 5rem 6rem;
+    }
+
+    html {
+        font-size: 56.25%;
+    }
+    .horoscope .col-xxl-3:nth-child(3) {
+        margin-right: 0;
+    }
+
+    .horoscope .col-xxl-3:nth-child(4) {
+        margin-left: 0;
+    }
+    /* .horoscope .zodiac{
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    } */
+    .horoscope{
+        justify-content: space-around;
+    }
+    .horoscope .zodiac .zodiac-data {
+        margin-left: 2.5rem;
+    }
+    .horoscope .col-xxl-3{
+        margin-right: 0.1rem;
+    }
+    header .container nav ul li{
+        margin-left: 4rem;
+    }
+}
+
+/* 1800-any xxxl */
+@media screen and (min-width:1800px) {
+    .container {
+        max-width: 1700px;
+    }
+
+    .astrological .forecast {
+        margin: 7.5rem 7.5rem;
+        padding: 5rem 6rem;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .horoscope .col-xxl-3:nth-child(3) {
+        margin-right: auto;
+    }
+
+    .horoscope .col-xxl-3:nth-child(4) {
+        margin-left: auto;
+    }
+    .horoscope .zodiac{ 
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .horoscope .col-xxl-3{
+        margin-right: 6rem;
+    }
+    .horoscope .zodiac .zodiac-data {
+        margin-left: 5rem;
+    }
+    header .container nav ul li{
+        margin-left: 5rem;
+    }
+}
